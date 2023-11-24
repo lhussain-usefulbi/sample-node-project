@@ -6,7 +6,7 @@ GEREKLİ PAKETLER YÜKLENİYOR...
 var http = require('http');
 var express = require('express');
 
-var app = express();
+// var app = express();
 
 app.set('port', process.env.PORT || 3005); // GİRİŞ PORTU AYARLANDI
 app.set('views', __dirname + '/app/server/views'); // VIEW KLASÖRÜ TANITILDI
